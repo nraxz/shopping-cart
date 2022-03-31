@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+        
+    <testsuites>
+        <testsuite name="Shop Test Suite">
+            <directory>tests/App/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+
+             <directory suffix=".php">src/App/</directory>
+
+        </whitelist>
+    </filter>
+
+   
+</phpunit>
