@@ -1,0 +1,33 @@
+<?php
+namespace App\Cart;
+use PHPUnit\Framework\TestCase;
+use Symfony\Component\Console\Tester\CommandTester;
+use App\Cart\ShoppingCart;
+
+class ShoppingCartTest extends TestCase
+{
+   
+     /**
+     * @param $input     
+     * @param $expectedResult
+     *
+     * @dataProvider cartDataProvider
+     */
+    public function testCalculate($input)
+    {
+        $calculate = new CommandTester(new ShoppingCart());
+
+       
+
+    }
+
+    public function cartDataProvider()
+    {
+        return [
+                        
+
+        ];
+        
+    }    
+
+}
