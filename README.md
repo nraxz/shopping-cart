@@ -36,11 +36,11 @@ Total price expected: £16.61
 Successful Outcome:
 This also takes complex input.
 
-PS C:\xampp\htdocs\shopping> php ./checkout.php cf1,fr1,fr1
+php ./checkout.php cf1,fr1,fr1
 Basket: CF1,FR1,FR1
 Total Price: £14.34
 
-PS C:\xampp\htdocs\shopping> php ./checkout.php cf1 2,fr1 5,SR1 4,Fr1 2,sr1,CF1
+php ./checkout.php cf1 2,fr1 5,SR1 4,Fr1 2,sr1,CF1
 Basket: CF1 2,FR1 5,SR1 4,FR1 2,SR1,CF1
 Total Price: £68.63
 
